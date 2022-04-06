@@ -1,0 +1,239 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Style */
+html,boby {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2.0em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+/* Utility classes*/
+.container {
+    margin: auto;
+    max-width: 1200px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-primary {
+    color: pink;
+}
+.lead {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.btn {
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 20px;
+    background:magenta;
+    padding: 15px 25px;
+    border: none;
+}
+.btn:hover {
+    background: pink;
+    color: black;
+}
+.btn-dark {
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    background: purple;
+    padding: 5px 10px;
+    border: none;
+}
+.btn-dark:hover {
+    background:darkslategray;
+    color: whitesmoke;
+}
+.bg-light {
+    background: whitesmoke;
+    color: black;
+}
+.bg-dark {
+    background: grey;
+    color: whitesmoke;
+}
+.bg-primary {
+    background: pink;
+    color: black;
+}
+.clr {
+    clear: both;
+}
+.l-heading {
+    font-size: 40px;
+}
+/* Padding */
+.py-1 { padding: 10px 0px; }
+.py-2 { padding: 20px 0px; }
+.py-3 { padding: 30px 0px; }
+.py-4 { padding: 40px 0px; }
+/* Navbar */
+#navbar {
+    background: grey;
+    color: whitesmoke;
+    overflow: auto;
+}
+#navbar a {
+    color: whitesmoke;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+} 
+#navbar ul li {
+    float:left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover, #navbar ul li a.current {
+    background: grey;
+    color: pink;
+}
+
+/* Showcase */
+#showcase {
+    background: url('./IMG/pixel.jpg') no-repeat center center/cover;
+    height: 900px;
+}
+#showcase .showcase-content {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 350px;
+}
+#showcase .showcase-content h1 {
+    font-size: 80px;
+    line-height: 1.5em;
+}
+#showcase .showcase-content p {
+    padding-bottom: 35px;
+    line-height: 1.5em;
+}
+/* Home-info */
+#home-info {
+    background: grey;
+    height: 400px;
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('./IMG/IMAGE2.jpg') no-repeat;
+    min-height: 100%;
+}
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 60px 40px;
+    color: whitesmoke;
+}
+#home-info .info-content p{
+    padding: 25px;
+    line-height: 1.5em;
+}
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i {
+    margin-bottom: 10px;
+}
+
+/* ABOUT PAGE */
+/* About info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 40%;
+}
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonials */
+#testimony {
+  height: 600px;
+  background: url('./IMG/Lighthouse.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+#testimony .testimonials {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+#testimony .testimonials img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+#testimony h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+/* contact form */
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px grey solid
+}
+#contact-form textarea {
+    height: 200px;
+}
+#contact-form input:focus, #contact-form textarea:focus {
+    outline: none;
+    border-color: burlywood;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: grey;
+    color: whitesmoke;
+    padding: 20px;
+}
